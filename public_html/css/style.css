@@ -6,6 +6,14 @@ h1 {
 	font-weight:normal;
 	letter-spacing:.04em;
 }
-body {
-    background-size: 100% 100%;
+
+body {   
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-size: 100% 100%; 
+}
+
+main {
+    flex: 1 0 auto;
 }
