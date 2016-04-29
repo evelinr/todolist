@@ -23,3 +23,23 @@ footer {
     text-align:center;
     color: black;
 }
+
+/*blog posts*/
+
+.blog-post {
+    margin-bottom: 60px;   
+    text-align: center;
+}
+
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;    
+}
+
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+    font-style:italic;
+}
+
+
