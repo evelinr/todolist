@@ -32,3 +32,10 @@ function Posts(args){
    this.content = args.content || "";
    this.authorEmail = args.authorEmail || "";
 }
+
+$(document).on('click', '.trash', function(event) {
+    console.log(event);
+    Backendless.Persistence.of(Posts).remove(event.target.attributes.data.nodeValue);
+    location.reload();
+    
+});
